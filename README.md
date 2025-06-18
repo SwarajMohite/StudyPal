@@ -18,6 +18,11 @@
   <img src="./StudyPal-1.png" alt="StudyPal Extension Screenshot" width="600"/>
 </p>
 
+### Demo Video
+
+👉 [Click to watch the demo video](./demo.mp4)
+
+
 ---
 
 ## Installation & Usage
