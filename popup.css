@@ -1,0 +1,78 @@
+.container {
+  width: 280px;
+  color: #2f3d4c;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1976d2;
+  text-align: center;
+}
+
+.bookmarks {
+  margin: 10px 0;
+  padding: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.bookmark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaf1f8;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+  border-left: 4px solid #1976d2;
+}
+
+.bookmark-title {
+  font-size: 13px;
+  color: #333;
+}
+
+.bookmark-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.bookmark-controls img {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.controls button {
+  padding: 8px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.controls button:hover {
+  background-color: #135ba1;
+}
+
+.footer {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+}

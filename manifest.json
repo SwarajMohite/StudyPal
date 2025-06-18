@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "StudyPal",
+  "version": "1.0",
+  "description": "Helps students manage their study time on YouTube with bookmarks, focus mode, Pomodoro timer, and more.",
+  "author": "Swaraj Mohite",
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://*.youtube.com/*"  
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/bookmark.png",
+        "assets/play.png",
+        "assets/delete.png",
+        "assets/save.png",
+        "assets/icon128.png"
+      ],
+      "matches": ["https://*.youtube.com/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "StudyPal Tools",
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png",
+      "128": "assets/icon128.png"
+    }
+  }
+}
