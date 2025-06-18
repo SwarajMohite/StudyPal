@@ -12,19 +12,11 @@
 
 ---
 
-## Demo
-
-### Video Demo
-
-<video width="600" controls>
-  <source src="./StudyPal.mpv4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ### Screenshot
 
-![StudyPal Extension Screenshot](./StudyPal-1.png)
-
+<p align="center">
+  <img src="./StudyPal-1.png" alt="StudyPal Extension Screenshot" width="600"/>
+</p>
 
 ---
 
